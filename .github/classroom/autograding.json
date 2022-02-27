@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Trigger",
+      "setup": "",
+      "run": "mysql -u root",
+      "input": "1,2,3",
+      "output": "4",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
